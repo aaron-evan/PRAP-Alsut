@@ -30,6 +30,13 @@
 			cursor: pointer;
 			transition: 0.4s;
 		}
+		@keyframes anim {
+			0%	{margin-left: 0;}
+			20%	{margin-left: -20%;}
+			40%	{margin-left: -40%;}
+			60%	{margin-left: -60%;}
+			80%	{margin-left: -80%;}
+		}
 		.round:hover{
 			background: #fff;
 		}
@@ -41,6 +48,9 @@
 			width: 500%;
 			height: 100%;
 			display: flex;
+			animation-name: anim;
+			animation-duration: 1s;
+			animation-delay: 5s;
 		}
 		.slide{
 			width: 20%;

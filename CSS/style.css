@@ -29,6 +29,7 @@
 	animation-name: anim;
 	animation-duration: 30s;
 	animation-direction: normal;
+	animation-iteration-count: infinite;
 }
 @keyframes anim {
 	0%	{margin-left: 0;}

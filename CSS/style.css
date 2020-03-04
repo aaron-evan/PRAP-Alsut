@@ -33,10 +33,15 @@
 }
 @keyframes anim {
 	0%	{margin-left: 0;}
+	15%	{margin-left: 0;}
 	20%	{margin-left: -20%;}
+	35%	{margin-left: -20%;}
 	40%	{margin-left: -40%;}
+	55%	{margin-left: -40%;}
 	60%	{margin-left: -60%;}
+	75%	{margin-left: -60%;}
 	80%	{margin-left: -80%;}
+	95%	{margin-left: -80%;}
 }
 .round:hover{
 	background: #fff;

@@ -131,7 +131,6 @@ nav{
     position: absolute;
     align-self: right;
     top: 0px;
-    transition: opacity 0.5s ease 0s, visibility 0s ease 0.5s;
     visibility: 0;
     width: 50%;
     z-index: -1;

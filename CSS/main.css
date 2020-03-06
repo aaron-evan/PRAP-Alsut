@@ -1,23 +1,21 @@
-/*
- * Made by Erik Terwan
- * 24th of November 2015
- * MIT License
- *
- *
- * If you are thinking of using this in
- * production code, beware of the browser
- * prefixes.
- */
-
  body
  {
    margin: 0;
    padding: 0;
    
-   /* make it look decent enough */
    background: #ffffff;
    font-family: "Avenir Next", "Avenir", sans-serif;
  }
+
+ .header{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    background: #ffffff;
+    border-bottom: solid 2px black;
+    width: 100%;
+    height: 125px;
+}
 
  .menu-icon{
     top: 45px;
@@ -159,7 +157,7 @@
  {
    padding: 10px 0;
    font-size: 22px;
-   
+
  }
  
  /*

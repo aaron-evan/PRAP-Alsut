@@ -10,7 +10,7 @@
  .header{
     display: flex;
     justify-content: space-between;
-    position: absolute;
+    /*position: absolute;*/
     background: #ffffff;
     border-bottom: solid 2px black;
     width: 100%;

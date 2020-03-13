@@ -3,12 +3,14 @@
 	width: 100%;
 	overflow: hidden;
 }
+
 .middle{
-	position: absolute;
+	position: fixed;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 }
+
 .nav{
 	position: absolute;
 	bottom: 20px;
@@ -16,6 +18,7 @@
 	transform: translateX(-50%);
 	display: flex;
 }
+
 .round{
 	width: 20px;
 	height: 20px;
@@ -25,12 +28,14 @@
 	cursor: pointer;
 	transition: 0.4s;
 }
+
 .s1{
 	animation-name: anim;
 	animation-duration: 30s;
 	animation-direction: normal;
 	animation-iteration-count: infinite;
 }
+
 @keyframes anim {
 	0%	{margin-left: 0;}
 	15%	{margin-left: 0;}
@@ -43,6 +48,7 @@
 	80%	{margin-left: -80%;}
 	95%	{margin-left: -80%;}
 }
+
 .round:hover{
 	background: #fff;
 }

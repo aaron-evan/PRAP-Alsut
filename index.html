@@ -4,24 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS/main.css">
-    <link rel="stylesheet" type="text/css" href="CSS/style.css">
-    <title>Document</title>
+    <!-- <link rel="stylesheet" href="CSS/style.css"> -->
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+    <script src="bootstrap/js/jquery.slim.min.js"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
+    <script src="bootstrap/js/popper.min.js"></script>
+    <title>BNCC</title>
 </head>
 <body>
-    <div class="header">
+    <div class="header" style="position: absolute;">
         <nav role="navigation">
             <div class="menu-icon">
-                <img height="40px" src="Image/BNCC_T.png" alt="Error">
+                <img height="40px" width="auto" src="Image/BNCC_T.png" alt="Error">
             </div>
 
         <div id="menuToggle">
-
             <input type="checkbox" />
           
             <span></span>
             <span></span>
             <span></span>
-
             <ul id="menu">
                 <a href="#"><li><b>HOME</b></li></a>
                 <a href="#"><li><b>WHO ARE WHO?</b></li></a>
@@ -32,36 +34,25 @@
         </div>
       </nav>
     </div>
-  <div class="slider middle">
-		<div class="slides">
-			<input type="radio" name="r" id="r1" checked>
-			<input type="radio" name="r" id="r2">
-			<input type="radio" name="r" id="r3">
-			<input type="radio" name="r" id="r4">
-			<input type="radio" name="r" id="r5">
-			<div class="slide s1">
-				<img src="Image/foto2/1.jpg">
-			</div>
-			<div class="slide">
-				<img src="Image/foto2/2.jpg">
-			</div>
-			<div class="slide">
-				<img src="Image/foto2/3.jpg">
-			</div>
-			<div class="slide">
-				<img src="Image/foto2/4.jpg">
-			</div>
-			<div class="slide">
-				<img src="Image/foto2/5.jpg">
-			</div>
-			<div class="nav">
-				<label for="r1" class="round"></label>
-				<label for="r2" class="round"></label>
-				<label for="r3" class="round"></label>
-				<label for="r4" class="round"></label>
-				<label for="r5" class="round"></label>
-			</div>
+    <!-- ini menggunakan bootstrap -->
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" data-interval="4000">
+	  	<div class="carousel-inner">
+	    	<div class="carousel-item active">
+	      		<img class="d-block w-100" src="Image/foto2/1.jpg" alt="First slide">
+	    	</div>
+	    	<div class="carousel-item">
+	      		<img class="d-block w-100" src="Image/foto2/2.jpg" alt="Second slide">
+		    </div>
+		    <div class="carousel-item">
+		    	<img class="d-block w-100" src="Image/foto2/3.jpg" alt="Third slide">
+		    </div>
+		    <div class="carousel-item">
+		    	<img class="d-block w-100" src="Image/foto2/4.jpg" alt="Third slide">
+		    </div>
 		</div>
+	</div>
+	<div>
+		aasda
 	</div>
 </body>
 </html>
